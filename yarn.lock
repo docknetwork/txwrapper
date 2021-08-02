@@ -623,6 +623,14 @@
     "@polkadot/api" "^5.2.1"
     memoizee "0.4.15"
 
+"@substrate/txwrapper-polkadot@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@substrate/txwrapper-polkadot/-/txwrapper-polkadot-1.2.9.tgz#33c80e7e37270eb409381b270a05538bcb3b2042"
+  integrity sha512-5e/8uv8iXR+nfU+4my3OZTcV9a03qn+xMPksH1XnH8i3IpnLAW+fOqWx/pkUTeNt7/l/f4keBUUCDr/V5v2T2w==
+  dependencies:
+    "@substrate/txwrapper-core" "^1.2.9"
+    "@substrate/txwrapper-substrate" "^1.2.9"
+
 "@substrate/txwrapper-registry@^1.2.9":
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/@substrate/txwrapper-registry/-/txwrapper-registry-1.2.9.tgz#38504930afe9d567d1d02e34b77e65a51927f361"
