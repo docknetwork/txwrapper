@@ -18,8 +18,8 @@ import { rpcToLocalNode, signWith } from './util';
  */
 async function main(): Promise<void> {
 	// Wait for the promise to resolve async WASM
-
 	await cryptoWaitReady();
+	
 	// Create a new keyring, and add an "Alice" account
 	const keyring = new Keyring();
 	const alice = keyring.addFromUri('//Alice', { name: 'Alice' }, 'sr25519');

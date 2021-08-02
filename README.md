@@ -1,3 +1,13 @@
-# txwrapper-template
+# txwrapper-dock
 
-This directory is a template for creating a chain specific txwrapper package, in the vein of `txwrapper-polkadot`. For guidance on how to use this template consult the [CHAIN_BUILDER.md guide](../../CHAIN_BUILDER.md)
+This is the package for creating offline transactions for Dock network.
+
+**TODO**
+The package isn't working due to following error coming from util-crypto
+```
+TypeError: Cannot read property 'map' of undefined
+```
+
+Also there are duplicate imports.
+
+Files bundle.js, rpc.js and  v27.js and need to be removed as well.

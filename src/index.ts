@@ -1,5 +1,6 @@
 import { methods as substrateMethods } from '@substrate/txwrapper-substrate';
 import * as typesBundle from '@docknetwork/node-types';
+// import {bundle as typesBundle} from './bundle';
 import { OverrideBundleType } from '@polkadot/types/types';
 import {
   getRegistryBase,
