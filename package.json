@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "@polkadot/util-crypto": "^7.1.1",
-    "@polkadot/wasm-crypto": "^4.1.2",
     "@substrate/txwrapper-polkadot": "^1.2.9",
     "ts-node": "10.1.0",
     "typescript": "4.3.5"
